@@ -17,6 +17,7 @@ Este trabajo se organiza en torno a cuatro bloques principales:
 Los resultados obtenidos se presentan en tablas, diagramas de contornos de p-valores medios y mapas de densidad de tasas de no rechazo sobre una malla logarítmica de 100×100 puntos.
 
 #### Estructura del repositorio
+```
 ├── codigo/
 │   ├── marco_teorico/
 │   │   ├── codigo_imagenes_tnormas.py          # Visualizaciones de t-normas no paramétricas
@@ -46,7 +47,8 @@ Los resultados obtenidos se presentan en tablas, diagramas de contornos de p-val
 │       └── yager_hamacher.py # Efecto del número de argumentos en la comparativa yager vs hamacher
 │
 └── referencias/
-    └── REFERENCIAS.md                          # Citas completas y DOIs
+    └── REFERENCIAS.md                          
+```
 
 #### Requisitos
 Python 3.9 o superior. Las dependencias necesarias son: numpy, scipy, matplotlib y tqdm.
